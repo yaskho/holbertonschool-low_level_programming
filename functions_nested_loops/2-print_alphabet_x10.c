@@ -1,22 +1,26 @@
 #include "main.h"
 /**
-*main - check the code.
-*print_alphabet_x10
+*main = check the code.
+*print_alphabet_x10 - function
 *Return: Always 0.
 */
 void print_alphabet_x10(void)
 
 {
-	int i, char c;
+	char i, char c;
 
 	for (i = 0; i < 10; i++)
-
-	for ( c = 'a'; c <= 'z'; c++)
-
+	
 	{
-		putchar(c);
-	}
+
+		for ( c = 'a'; c <= 'z'; c++)
+
+		{
+			putchar(c);
+		}
 
 	putchar('\n');
+
+	}
 
 }
