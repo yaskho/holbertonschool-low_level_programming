@@ -3,6 +3,7 @@
 *_isalpha - function that checks for alphabetic character.
 *Return:1 if c is lowercase
 *Return:0 otherwise
+*c: checking character
 */
 
 int _isalpha(int c)
