@@ -13,12 +13,12 @@ int main(void)
 
         while (array[i] != '\0')
         {
-                _putchar(array[i]);
+                putchar(array[i]);
 
                 i++;
         }
 {
-        _putchar('\0');
+        putchar('\0');
 }
         return (0);
 }
