@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strlen - function that returns the length of a string.
- * @s:char to check with
- * Return :0 always 
+*_strlen - function that returns the length of a string.
+*@s:char to check with
+*Return: always 0
 */
 
 int _strlen(char *s)
@@ -15,5 +15,5 @@ int _strlen(char *s)
 		s++;
 	}
 
-	return length;
+	return (length);
 }
