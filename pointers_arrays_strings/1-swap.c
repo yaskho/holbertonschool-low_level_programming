@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * swap_unt - swap two nums
+ * swap_int - swap two nums
  *
  * @a: num1
  *
@@ -10,9 +10,9 @@
 
 void swap_int(int *a, int *b)
 {
-    int c;
+	int c;
 
-    c = (*a);
-    (*a) = (*b);
-    (*b) = c;
+	c = (*a);
+	(*a) = (*b);
+	(*b) = c;
 }
