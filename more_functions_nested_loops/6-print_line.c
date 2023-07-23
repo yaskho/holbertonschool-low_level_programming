@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *print_line -  function that draws a straight line in the terminal.
-/*@n: _
+*@n: '_'
 *Return: for putchar
 */
 
