@@ -22,13 +22,12 @@ int i, j, result;
 				_putchar(' ');
 			}
 			if (result < 10)
-
-			_putchar(' ');
-
+				_putchar(result + '0');
 			else
-
+			{
 			_putchar((result / 10) + '0');
 			_putchar((result % 10) + '0');
+			}
 		}
 		_putchar('\n');
 	}
