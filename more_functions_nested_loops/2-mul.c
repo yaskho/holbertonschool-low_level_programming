@@ -3,10 +3,9 @@
  *mul - function that multiplies two integers.
  *@a: checking variable
  *@b: checking variable
- *Return: a * b 
+ *Return: a * b
 */
 int mul(int a, int b)
 {
-    return (a * b);
-
+	return (a * b);
 }
