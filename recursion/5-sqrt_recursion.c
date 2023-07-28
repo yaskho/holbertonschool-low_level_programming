@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * sqrt_helper - Recursive helper function to find the square root.
+ * function _sqrt_recursion - Recursive helper function to find the square root.
  * @n: The number to find the square root.
  * @a: int
  *
