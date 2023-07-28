@@ -5,7 +5,6 @@
  * sqrt_helper - Recursive helper function.
  * @n: The number to find the square root.
  * @a: int
- *_sqrt_recursion - recursive function
  * Return: 0 or -1.
  */
 int sqrt_helper(int n, int a)
@@ -23,6 +22,13 @@ int sqrt_helper(int n, int a)
 
 	return sqrt_helper(n, a + 1);
 }
+
+/**
+ *_sqrt_recursion - recursive function
+ *@n : number
+ *Return: -1 or 0
+ *sqrt_helper - Recursive helper function.
+*/
 
 int _sqrt_recursion(int n)
 {
