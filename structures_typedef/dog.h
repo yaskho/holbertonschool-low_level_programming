@@ -1,5 +1,6 @@
 #ifndef HEADER_H
 #define HEADER_H
+#include <stdio.h>
 
 /**
 * struct dog - defines a struct holding
@@ -16,4 +17,6 @@ struct dog
 	char *owner;
 };
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+void print_dog(struct dog *d);
 #endif
