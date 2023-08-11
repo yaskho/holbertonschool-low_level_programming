@@ -5,6 +5,9 @@
 *@separator:string
 *@n: variable
 *@a:variable
+*va_list - Declare a va_list
+*va_start - Initialize the va_list
+*va_end - clean the va_list
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {

@@ -2,7 +2,15 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 #include <stdlib>
-
+/**
+*print_char - function to print
+*@args: arguments
+*va_list - Declare a va_list
+*va_start - Initialize the va_list
+*va_end - clean the va_list
+*@format: constant
+*@s: string
+*/
 
 void print_all(const char * const format, ...)
 {

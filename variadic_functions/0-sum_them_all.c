@@ -3,9 +3,12 @@
 *sum_them_all - sum function
 *Return: 0
 *@n: variable
+*va_list - Declare a va_list
+*va_start - Initialize the va_list
+*va_end - clean the va_list
 */
 int sum_them_all(const unsigned int n, ...)
-insigned int sum = 0 , int i;
+unsigned int sum = 0 , int i;
 va_list args;
 if (!n)
 	return(0);

@@ -6,6 +6,9 @@
 *print_strings - function to print strings
 *@separator: string
 *@n:variable
+*va_list - Declare a va_list
+*va_start - Initialize the va_list
+*va_end - clean the va_list
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
