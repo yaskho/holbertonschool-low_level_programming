@@ -2,6 +2,7 @@
 /**
  * *_strcpy -  function that copies the string pointed to by src.
  * @src: char to check
+ *@dest: the string to copy to
  * Return: to return the function
 */
 
