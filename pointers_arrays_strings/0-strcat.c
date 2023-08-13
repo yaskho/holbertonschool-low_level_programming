@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- *
- *
+ * _strcat - concatenate
+ *@dest: destination
+ *@src: source
+ *Return: result of concat
 */
 
 char *_strcat(char *dest, char *src)
@@ -20,8 +22,7 @@ char *_strcat(char *dest, char *src)
 		dest_ptr++;
 		src++;
 	}
-
 	*dest_ptr = '\0';
 
-	return dest;
+	return (dest);
 }
