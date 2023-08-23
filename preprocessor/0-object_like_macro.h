@@ -1,0 +1,5 @@
+#ifndef OBJECT_LIKE_MACRO8H
+#define OBJECT_LIKE_MACRO8H
+
+#define SIZE 1024
+#endif
