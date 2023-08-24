@@ -2,6 +2,9 @@
 /**
  * _strncat - function to concatonate
  * Return: to  return the char
+ * @dest: char
+ * @src: char
+ * @n: variable
 */
 
 char *_strncat(char *dest, char *src, int n)
