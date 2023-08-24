@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * 
- * 
+ * string_toupper - function to change type
+ * Return: to return string changed
  * 
 */
 
@@ -18,5 +18,5 @@ char *string_toupper(char *str)
 		ptr++;
 	}
 
-	return str;
+	return (str);
 }

@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * _strncat - function to concatonate
+ * Return: to  return the char
+*/
 
 char *_strncat(char *dest, char *src, int n)
 {
@@ -19,5 +23,5 @@ char *_strncat(char *dest, char *src, int n)
 
 	*dest_ptr = '\0';
 
-	return dest;
+	return (dest);
 }
