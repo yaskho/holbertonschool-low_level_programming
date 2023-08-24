@@ -3,7 +3,6 @@
  * string_toupper - function to change type
  * @str: string
  * Return: to return string changed
- * 
 */
 
 char *string_toupper(char *str)

@@ -3,7 +3,6 @@
  * cap_string - function to capitalize the words
  * @str: string
  * Return: to return the changed words
- * 
 */
 
 char *cap_string(char *str)

@@ -3,7 +3,6 @@
  * leet - function to leet
  * @str: string
  * Return: to return the string
- * 
 */
 
 char *leet(char *str)
