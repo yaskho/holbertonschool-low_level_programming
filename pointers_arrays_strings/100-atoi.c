@@ -4,33 +4,32 @@ int _atoi(char *s)
 {
 	int sign = 1;
 	int result = 0;
+	int i;
+	int j;
 
-	while (*s == ' ' || (*s >= 9 && *s <= 13))
+	while (*s >= '9' || *s <= '0')
 	{
-		s++;
-	}
-
-	if (*s == '-')
-	{
-		sign = -1;
-		s++;
-	}
-	else if (*s == '+')
-	{
-		s++;
-	}
-
-	while (*s >= '0' && *s <= '9')
-	{
-
-		if (result > (INT_MAX - (*s - '0')) / 10)
+		if (*s == '-')
 		{
-			return (sign == 1 ? INT_MAX : INT_MIN);
+			sign = -1;
+			s++;
 		}
-
-		result = result * 10 + (*s - '0');
+		else if (*s == '+')
+		{
+			s++;
+		}
 		s++;
 	}
-
-	return result * sign;
+	while (*s >= '0' && *s <= '9')
+		{
+			result = result * 10 + (*s - '0');
+			s++;
+			i++;
+		}
+	while (i > 0)
+		{
+			j *= 10;
+			i--;
+		}
+		return (result * sign);
 }
