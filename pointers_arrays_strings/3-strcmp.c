@@ -2,6 +2,8 @@
 /**
  * _strcmp - function to compare strings
  * Return: to return the result
+ * @s1: string
+ * @s2:string
 */
 
 int _strcmp(char *s1, char *s2)
