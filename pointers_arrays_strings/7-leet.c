@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * leet - function to leet
+ * @str: string
  * Return: to return the string
  * 
 */

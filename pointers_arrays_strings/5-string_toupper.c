@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * string_toupper - function to change type
+ * @str: string
  * Return: to return string changed
  * 
 */

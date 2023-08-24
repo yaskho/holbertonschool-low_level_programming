@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * reverse_array - fuction to reserve
- * 
- * 
+ * @a: variable
+ * @n: variable
 */
 
 void reverse_array(int *a, int n)
