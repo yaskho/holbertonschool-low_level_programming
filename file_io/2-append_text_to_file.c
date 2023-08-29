@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * add_text_to_file - infuse text into a file
+ * append_text_to_file - infuse text into a file
  * @filename: moniker of the file to infuse into
  * @text_content: essence to imbue into the file
  * Return: 1 upon triumph, -1 upon misfortune
