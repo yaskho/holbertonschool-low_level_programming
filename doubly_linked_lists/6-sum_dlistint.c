@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include "lists.h"
+
 /**
  * sum_dlistint - Returns the sum
  * @head: Pointer
@@ -14,5 +17,5 @@ int sum_dlistint(dlistint_t *head)
 		current = current->next;
 	}
 
-	return sum;
+	return (sum);
 }
